@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Section 5 Activity</title>
+</head>
+<style type="text/css">
+	.wrap {
+    float: left;
+    position: relative;
+    left: 50%;
+}
+
+	.content {
+    float: left;
+    position: relative;
+    left: -50%;
+}
+</style>
+
+<body>
+	<br>
+	<hr>
+
+	<section>
+		<fieldset style="width: 50%; padding: 20px; margin: auto; padding-bottom: 30px; padding-top: 0px; padding-right: 0px;">
+			<h1>Zuitt IT Solutions</h1>
+
+			<h3>Products Offered</h3>
+
+			<table border="1">
+				<thead>
+					<tr>
+						<th>Package</th>
+						<th>Price</th>
+						<th>Description</th>
+					</tr>					
+				</thead>
+					
+				<tbody>
+					<tr>
+						<td>Basic</td>
+						<td>&#8369; 500.00</td>
+						<td>Package includess a fully functional websites with desire specification.</td>
+					</tr>	
+					<tr>
+						<td>Premium</td>
+						<td>&#8369; 1000.00</td>
+						<td>Enjoy all the benefits of the basic package and also includes site support and maintenance.</td>
+					</tr>
+				</tbody>
+
+				<tfoot>
+					<th colspan="3">Additional features after initial project in inclusive for charges</th>
+				</tfoot>
+
+			</table>
+
+		</fieldset>
+
+	</section>
+
+	<article>
+		<h2 align="center">Contact Form</h2>
+
+		<div class="wrap">
+			<form class="content">
+
+				<label for="fName">First Name: </label> <br>
+				<input type="text" id="fName" required> <br>
+
+				<label for="lName">Last Name: </label> <br>
+				<input type="text" id="lName" required> <br>
+
+				<label for="email">Email: </label> <br>
+				<input type="email" id="email" required> <br>
+
+				<label for="conNumber">Contact Number: </label> <br>
+				<input type="number" id="conNumber" required> <br>
+
+				<label for="serveType">Service Type: </label> <br>
+				<select id="serveType" required>
+					<option>Front End Programming</option>
+					<option>Back End Programming</option>
+					<option>Full Stack Developer</option>
+				</select> <br>
+
+				<label>Preferred Contact: </label> <br>
+
+				<input type="checkbox" name="preEmail" value="Email" required>
+				<label for="preEmail">Email</label> <br>
+
+				<input type="checkbox" name="prePhone" value="Phone" required>
+				<label for="prePhone">Phone</label> <br>
+
+				<label>Package: </label> <br>
+
+				<input type="radio" name="pack1" id="pack1" value="basic" required>
+				<label for="pack1">Basic</label> <br>
+
+				<input type="radio" name="pack2" id="pack2" value="premium" required>
+				<label for="pack2">Premium</label> <br><br>
+
+				<label for="message">Message</label> <br>
+				<textarea cols="20" rows="10"></textarea> <br>
+
+				<button type="submit">Send Inquiry</button> <br>
+				<button type="reset">Reset</button>
+
+			</form>
+		</div>
+	</article>
+
+
+</body>
+</html>
